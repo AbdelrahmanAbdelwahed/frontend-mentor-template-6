@@ -65,14 +65,15 @@ body {
   padding: 5px;
   justify-content: flex-start;
   align-items: center;
-  background: linear-gradient(to left, #49cc92, #4b94cc);
   border-radius: 20px;
+  position: relative;
 }
 .mode__selector {
   display: block;
   border-radius: 50%;
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
+  transform: translateY(-0.5px);
 }
 
 .mode--right {
@@ -194,6 +195,11 @@ body {
   border-radius: 5px;
   font-size: 14px;
   cursor: pointer;
+}
+
+.attribution {
+  width: 100%;
+  text-align: center;
 }
 
 .type-view,

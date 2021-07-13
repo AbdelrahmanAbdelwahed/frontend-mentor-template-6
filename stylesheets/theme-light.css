@@ -1,65 +1,69 @@
 body {
-    background: #ffffff;
+  background: #ffffff;
 }
 
 .box-head {
-    background: #ffffff;
+  background: hsl(225, 100%, 98%);
 }
 
 .mode-dark-light {
-    color: #9899B2;
+  color: hsl(230, 22%, 74%);
 }
 
 .header {
-    color: black;
+  color: black;
 }
 
 .card-foll {
-    background: #F0F3FA;
-    transition: .3s;
+  background: #f0f3fa;
+  transition: 0.3s;
 }
 
 .card-foll:hover {
-    background: #E1E3F0;
+  background: #e1e3f0;
 }
 
 .total-followers {
-    color: black;
+  color: black;
 }
 
 .recently__days {
-    color: #5DB8A1;
+  color: #5db8a1;
 }
 
 .recently__days--red {
-    color: #BB5066;
+  color: #bb5066;
 }
 
 .mode__selector {
-    background: white;
+  background: white;
 }
 
 .content-overviews {
-    color: black;
+  color: black;
 }
 
 .card-over {
-    background: #F0F3FA;
-    transition: .3s;
+  background: #f0f3fa;
+  transition: 0.3s;
 }
 
 .card-over:hover {
-    background: #E1E3F0;
+  background: #e1e3f0;
 }
 
 .percent__value {
-    color: #42A494;
+  color: #42a494;
 }
 
 .type-view__text {
-    color: #838BB2;
+  color: #838bb2;
 }
 
 .percent__value--red {
-    color: #BB5066;
+  color: #bb5066;
+}
+
+.mode {
+  background: hsl(230, 22%, 74%);
 }
